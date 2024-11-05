@@ -55,8 +55,8 @@ const Management = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-3 xl:grid-cols-6 gap-8 mt-12">
           {services.map((service, index) => (
-            <div className='flex justify-center items-center'>
-              <div key={index} className="flex flex-col items-start space-y-3">
+            <div key={index} className='flex justify-center items-center'>
+              <div className="flex flex-col items-start space-y-3">
                 <div className="flex items-center space-x-3">
                   <Image src={service.icon} className='lg:w-[40px] lg:h-[40px] xl:w-[50px] xl:h-[50px]' alt='icon' />
                   <h3 className="text-[#2B1C13] text-base md:text-xl lg:text-lg font-lexend font-bold">
