@@ -1,21 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@100..900&family=Oxygen&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'SandeMore';
+  src: url('/fonts/SandeMore-Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: 'SandeMore_Medium';
+  src: url('/fonts/SandeMore-Medium.ttf') format('truetype');
+  font-weight: 600;
+  font-style: medium;
+  font-display: swap;
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@font-face {
+  font-family: 'SandeMore_SemiBold';
+  src: url('/fonts/SandeMore-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: SemiBold;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'libreBaskerville';
+  src: url('/fonts/libre-baskerville.regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Sansation';
+  src: url('/fonts/Sansation_Regular.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Faraz';
+  src: url('/fonts/font_faraz.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+
+.hide-scroll-bar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.hide-scroll-bar::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollbar-w-2::-webkit-scrollbar {
+  width: 3px;
+  height: 8vh;
+}
+
+.scrollbar-track-blue-lighter::-webkit-scrollbar-track {
+  --bg-opacity: 1;
+  background-color: #f7fafc;
+  background-color: rgba(247, 250, 252, var(--bg-opacity));
+}
+
+.scrollbar-thumb-blue::-webkit-scrollbar-thumb {
+  --bg-opacity: 1;
+  background-color: #edf2f7;
+  background-color: rgba(255, 77, 77, var(--bg-opacity));
+}
+
+.scrollbar-thumb-rounded::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 5px
+}
+
+::-webkit-scrollbar-track {
+  --bg-opacity: 1;
+  background-color: #f7fafc;
+  background-color: rgba(247, 250, 252, var(--bg-opacity));
+}
+
+::-webkit-scrollbar-thumb {
+  --bg-opacity: 1;
+  background-color: #442208;
+  background-color: rgba(88, 65, 57, var(--bg-opacity));
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0.25rem;
 }

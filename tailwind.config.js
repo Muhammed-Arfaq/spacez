@@ -7,9 +7,14 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+      fontFamily: {
+        SandeMore: ['SandeMore', 'sans-serif'],
+        SandeMore_medium: ['SandeMore_Medium', 'sans-serif'],
+        SandeMore_SemiBold: ['SandeMore_SemiBold', 'sans-serif'],
+        libreBaskerville: ['libreBaskerville', 'sans-serif'],
+        Sansation: ['Sansation', 'sans-serif'],
+        Faraz: ['Faraz', 'sans-serif'],
+        lexend: ['"Lexend Deca"', 'sans-serif'],
       },
     },
   },
