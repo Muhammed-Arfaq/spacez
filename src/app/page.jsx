@@ -18,12 +18,12 @@ export default function Home() {
 
       <main className="pt-16">
         <Banner />
-        <CaseStudies />
         <Comparison />
+        <Testimonials />
+        <Pricing />
         <Investment />
         <Management />
-        <Pricing />
-        <Testimonials />
+        <CaseStudies />
         <Footer />
       </main>
     </>
