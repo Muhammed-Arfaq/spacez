@@ -1,4 +1,4 @@
-import Footer from "@/components/footer";
+import Footer from "@/components/Footer";
 import Banner from "@/components/Home/Banner";
 import CaseStudies from "@/components/Home/CaseStudies";
 import Comparison from "@/components/Home/Comparison";
