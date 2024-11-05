@@ -229,7 +229,7 @@ const Footer = () => {
                             </svg>
                         </Link>
                     </div>
-                    <div className='flex w-full flex-col justify-center items-center mt-10'>
+                    <div className='flex md:hidden w-full flex-col justify-center items-center mt-10'>
                         <p className='font-lexend font-semibold text-[#51311F]'>
                             download our app
                         </p>
