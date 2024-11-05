@@ -1,8 +1,10 @@
 'use client'
 import React, { useState } from 'react'
 import Image from 'next/image';
-import PlayStore from '../../public/assets/PlayStore_Mobile.png'
-import AppleStore from '../../public/assets/AppleStore_Mobile.png'
+import PlayStore_Mobile from '../../public/assets/PlayStore_Mobile.png'
+import AppleStore_Mobile from '../../public/assets/AppleStore_Mobile.png'
+import PlayStore from '../../public/assets/PlayStore.png'
+import AppleStore from '../../public/assets/AppleStore.png'
 import QR from '../../public/assets/QR.png'
 import spacezLogo from '../../public/assets/spacezLogo.png'
 import Link from 'next/link';
@@ -234,8 +236,8 @@ const Footer = () => {
                             download our app
                         </p>
                         <div className='flex space-x-5 mt-2'>
-                            <Image src={PlayStore} alt='playStore' />
-                            <Image src={AppleStore} alt='appleStore' />
+                            <Image src={PlayStore_Mobile} alt='playStore' />
+                            <Image src={AppleStore_Mobile} alt='appleStore' />
                         </div>
                     </div>
                     <div className='flex flex-col w-full justify-center items-center md:hidden font-lexend font-light mb-8 mt-8'>
